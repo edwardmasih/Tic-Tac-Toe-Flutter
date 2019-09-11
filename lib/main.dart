@@ -10,9 +10,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tic Tac Toe',
       theme: ThemeData(
+        primaryColor: Colors.cyan[800] ,
         canvasColor: Colors.white,
       ),
       home: Game(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
